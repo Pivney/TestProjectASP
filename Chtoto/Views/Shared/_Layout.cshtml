@@ -1,0 +1,34 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+	<head>
+		@await Html.PartialAsync("MetaTagPartial")
+		@await Html.PartialAsync("CssPartial")
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+
+		@await Html.PartialAsync("HeaderPartial")
+			<section id="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-12-medium">
+								@RenderBody()
+							</div>
+						</div>
+						@await Html.PartialAsync("SidebarPartial")
+					</div>
+				</section>
+
+			@await Html.PartialAsync("FooterPartial")
+
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+				</div>
+		</div>
+
+		@await Html.PartialAsync("ScriptPartial")
+
+	</body>
+</html>
