@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o0SI5vFUrZ+zrzCoAM0xRvEObVwR0EZo4J1rimapBuEgSS9qtXFZ9elwilrTM17MpPcf8cv9cgjVDQ3ZKp3TUA==",
+  "dgSpecHash": "J2mw9rAIkqXSSYmU9G4t5SKU3tOaY6djbJkrZq6fRppEDKvJ0OPfsc/H8TL+YdF9I5ZptzPXcMvQuCYxJCErBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pivne\\OneDrive\\Рабочий стол\\TestProjectASP-main\\Chtoto\\Chtoto.csproj",
+  "projectFilePath": "T:\\Projects\\TestProjectASP-main\\Chtoto\\Chtoto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pivne\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
     "C:\\Users\\pivne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

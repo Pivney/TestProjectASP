@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pivne\\OneDrive\\Рабочий стол\\TestProjectASP-main\\Chtoto\\Chtoto.csproj": {}
+    "T:\\Projects\\TestProjectASP-main\\Chtoto\\Chtoto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pivne\\OneDrive\\Рабочий стол\\TestProjectASP-main\\Chtoto\\Chtoto.csproj": {
+    "T:\\Projects\\TestProjectASP-main\\Chtoto\\Chtoto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pivne\\OneDrive\\Рабочий стол\\TestProjectASP-main\\Chtoto\\Chtoto.csproj",
+        "projectUniqueName": "T:\\Projects\\TestProjectASP-main\\Chtoto\\Chtoto.csproj",
         "projectName": "Chtoto",
-        "projectPath": "C:\\Users\\pivne\\OneDrive\\Рабочий стол\\TestProjectASP-main\\Chtoto\\Chtoto.csproj",
+        "projectPath": "T:\\Projects\\TestProjectASP-main\\Chtoto\\Chtoto.csproj",
         "packagesPath": "C:\\Users\\pivne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pivne\\OneDrive\\Рабочий стол\\TestProjectASP-main\\Chtoto\\obj\\",
+        "outputPath": "T:\\Projects\\TestProjectASP-main\\Chtoto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pivne\\AppData\\Roaming\\NuGet\\NuGet.Config",

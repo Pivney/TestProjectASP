@@ -13,7 +13,7 @@ namespace Chtoto.Domain.Enteties
         public override string Title { get; set; } = "Информационная страница";
 
         [Display(Name = "Краткое описание услуги")]
-        public override string Subtitle { get; set; } = "Информационная страница";
+        public override string? Subtitle { get; set; } = "Информационная страница";
 
         [Display(Name = "Полное описание услуги")]
         public override string Text { get; set; } = "Заполняется";

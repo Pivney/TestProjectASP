@@ -1,13 +1,15 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Chtoto.Domain;
 using Chtoto.Service;
 using Chtoto.Domain.Enteties.Repositories.Abstract;
 using Chtoto.Domain.Enteties.Repositories.EntityFramework;
-using Chtoto.Domain;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.CodeAnalysis.Options;
-using System.Security.Cryptography;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,8 +52,16 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 
+//подключаем нужный функционал приложения в качестве сервисов
+builder.Services.AddTransient<ITextFieldRepository, EFTextFieldRepository>();
+builder.Services.AddTransient<IServiceItemsRepository, EFServiceItemsRepository>();
+builder.Services.AddTransient<DataManager>();
+
 //connect config
 builder.Configuration.Bind("Project", new Config());
+
+
+
 
 var app = builder.Build();
 
